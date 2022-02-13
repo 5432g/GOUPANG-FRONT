@@ -2,14 +2,75 @@
   text-align: center;
 }
 
+
+.mb-3 {
+  padding-top: 15px;
+}
+
+.me-auto {
+  font-size: 9px;
+  height: 100%;
+}
+
+
+ .login {
+  width: 80px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+
+}
+
+.sign {
+
+  width: 80px;
+  
+}
+
+.help {
+   width: 80px;
+
+} 
+
+
+.depth1 {
+  font-size: 12px;
+}
+
+.Toggle {
+  font-size: 12px;
+}
+
+.ima {
+  width: 30%;
+  margin-top: 50px;
+  
+}
+
+.sidebar-nav-menu-item {
+  border: 1px solid #CCC;
+  margin-bottom: 20px;
+  display: flex;
+  
+  
+}
+.sidebar-nav-menu-item .sidebar-nav-menu-item-body {
+  overflow: hidden;
+  max-height: 0;
+  transition: all linear 0.5s;
+}
+
+.sidebar-nav-menu-item.item-active .sidebar-nav-menu-item-body {
+  max-height: 100px;
+  transition: all linear 0.5s 0.3s;
+}
+
+
+
 .App-logo {
-
-
-/*  */
-
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -10,6 +10,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+ 
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -1555,9 +1558,10 @@ progress {
     width: 33.3333333333%;
   }
 
+  /* 동완 수정  */
   .row-cols-xl-4 > * {
     flex: 0 0 auto;
-    width: 25%;
+    width: 60%;
   }
 
   .row-cols-xl-5 > * {
