@@ -4,9 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from 'react';
 import ReactBootstrap from 'react-bootstrap';
-import logo from '../resources/img/logo_coupang_w350.png';
-import myPage from '../resources/img/myPageIcon.png';
-import shoppingCart from '../resources/img/shoppingCartIcon.png';
 import { Button, Container, Row, Col,Image ,InputGroup, DropdownButton, Dropdown ,FormControl} from 'react-bootstrap';
 //import * as ReactBootstrap from 'react-bootstrap/*'
 

@@ -3,10 +3,13 @@
 }
 .Container{
   width: 90%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 Row{
   width: 100%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   text-align: center;
 }
+
+
+
