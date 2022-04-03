@@ -34,6 +34,8 @@ function App() {
 
   return ( 
       <div className="App">
+        <Switch>
+        <Route exact path={"/"}>
           <Container className="Container">
             <Row>
               <App_Header/>
@@ -44,16 +46,16 @@ function App() {
           <tr>
         
             <td >
-              {/* <Nav.Link  to="/Detail" as={Link} onClick={ ()=>{alert("상세페이지이동TEST")} }> */}
-            <Route path="/product/Detail/:id">
+              <Nav.Link  to="/Detail/0" as={Link} onClick={ ()=>{alert("상세페이지이동TEST")} }> 
               <List>
                 <img src="/resources/img/airPod.png" />
                 <Title>Apple 2021 에어팟 프로 블루투스 이어폰 맥세이프 호환, MLWK3KH/A</Title>
                 <Titleimg>20,240원 <img src="//image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" height="16"
                  alt="로켓배송"></img></Titleimg>
               </List>
-              {/* </Nav.Link> */}
-            </Route> 
+              </Nav.Link>
+            
+           
             </td>
         
         
@@ -153,7 +155,11 @@ function App() {
           
 
         </Container>
-        
+        </Route>
+        <Route path="/Detail/:id">
+          <Detail/>
+        </Route> 
+      </Switch>
 
          
        

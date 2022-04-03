@@ -14,7 +14,7 @@ let { id } = useParams();
 
     return(
         <div>
-            <a>상세페이지 테스트</a>
+         상세페이지
         </div>
     )
 }
